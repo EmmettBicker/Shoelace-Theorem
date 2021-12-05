@@ -3,10 +3,6 @@ import java.util.Scanner;
 public class ShoelaceFormula {
 
     public static void main(String[] args) {
-        //Yes or no input String
-        String yOrNo;
-        //Yes or no boolean
-        boolean isY = false;
 
         //Getting total # of points
         Scanner sc = new Scanner(System.in);
