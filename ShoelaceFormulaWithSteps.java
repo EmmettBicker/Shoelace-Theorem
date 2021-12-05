@@ -67,10 +67,11 @@ public class ShoelaceFormulaWithSteps{
                 j = i + 1;
             }
             //Simultaneously compute both sides of the shoelace formula
-            System.out.println("Multiplication of point " + (i+1) + " of X: " + xArray[i] * yArray[j]);
+            
             xStartSum += xArray[i] * yArray[j];
+            System.out.println("Multiplication of point " + (i+1) + " of X: " + xStartSum);
 
-            System.out.println("Multiplication of point " + (i+1) + " of Y: " + yArray[i] * xArray[j]);
+            System.out.println("Multiplication of point " + (i+1) + " of Y: " + yStartSum);
             yStartSum += yArray[i] * xArray[j];
 
         }
